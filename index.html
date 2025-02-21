@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK/PAPER/SCISSOR GAME</title>
+    <style>
+        body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: rgb(132, 161, 128);
+    
+    
+}
+.box{
+    background-color: rgb(46, 94, 67);
+    text-align: center;
+    border-radius: 20px;
+    padding: 40px 50px;
+    border: 2px solid black;
+    
+}
+
+
+img{
+    height: 200px;
+    width: 200px;
+}
+    h1{
+font-size:70px;
+color: aliceblue;
+    }
+
+        
+    </style>
+   
+</head>
+<body>
+    <div class="container">
+    <div class="box">
+        <h1>Rock-Paper-Scissor Game</h1>
+    <button onclick="rock()"> <img src="rock.png" alt="" ></button>
+    <button onclick="scissor()"><img src="scissor.png" alt=""></button>
+    <button onclick="paper()"><img src="paper.png" ></button>
+
+    </div>
+</div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
