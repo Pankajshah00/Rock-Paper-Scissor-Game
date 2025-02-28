@@ -15,28 +15,34 @@
     align-items: center;
     justify-content: center;
     height: 100%;
-    background-color: rgb(132, 161, 128);
+    background-color: #555155;
+    background-image: linear-gradient(0deg, #574f57 0%, #142f32 100%);
     
     
 }
 .box{
-    background-color: rgb(46, 94, 67);
     text-align: center;
     border-radius: 20px;
     padding: 40px 50px;
     border: 2px solid black;
+    background: rgb(47, 73, 81); 
     
 }
 
 
 img{
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
 }
-    h1{
-font-size:70px;
-color: aliceblue;
-    }
+h1{
+    font-size:50px;
+    color: aliceblue;
+}
+button{
+    border: 4px solid black;
+    border-radius: 30px;
+}
 
         
     </style>
@@ -45,10 +51,10 @@ color: aliceblue;
 <body>
     <div class="container">
     <div class="box">
-        <h1>Rock-Paper-Scissor Game</h1>
+        <h1>Rock-Paper-Scissor</h1>
     <button onclick="rock()"> <img src="rock.png" alt="" ></button>
     <button onclick="scissor()"><img src="scissor.png" alt=""></button>
-    <button onclick="paper()"><img src="paper.png" ></button>
+    <button onclick="paper()"><img src="paper.png" alt=""></button>
 
     </div>
 </div>
